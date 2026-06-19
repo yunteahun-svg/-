@@ -9,7 +9,7 @@ st.title("👁️ 시각장애인용 식품 정보 음성 안내 앱")
 st.write("카메라로 식품의 유통기한이나 성분표를 찍어 업로드하면 인공지능이 읽어줍니다.")
 
 # 1. 스마트폰 카메라 촬영 및 파일 업로드 버튼 생성
-uploaded_file = st.file_uploader("식품 사진을 찍거나 올려주세요", type=["jpg", "jpeg", "png"], capture="camera")
+uploaded_file = st.file_uploader("식품 사진을 찍거나 올려주세요", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # 업로드된 이미지를 화면에 띄우기
